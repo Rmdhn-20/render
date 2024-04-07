@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 # Install necessary packages
 RUN apt-get update && \
-    apt-get install sudo \
+    apt-get install sudo && \
     apt-get install -y shellinabox && \
     apt-get install -y systemd && \
     apt-get clean && \
